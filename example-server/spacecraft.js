@@ -10,7 +10,8 @@ function Spacecraft() {
         "comms.sent": 0,
         "pwr.temp": 245,
         "pwr.c": 8.15,
-        "pwr.v": 30
+        "pwr.v": 30,
+        "custom.ch": 25
     };
     this.history = {};
     this.listeners = [];
@@ -49,6 +50,7 @@ Spacecraft.prototype.updateState = function () {
         this.state["pwr.c"] = this.state["pwr.c"] * 0.985;
     }
     this.state["pwr.v"] = 30 + Math.pow(Math.random(), 3);
+    this.state["custom.ch"] = 25 + Math.pow(Math.random(), 2);
 };
 
 /**

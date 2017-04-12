@@ -194,7 +194,7 @@
                 {   
                     "key": "value",
                     "name": "Value",
-                    "units": "Amps",
+                    "units": "Volts",
                     "format": "float",
                     "hints": {
                         "y": 1,

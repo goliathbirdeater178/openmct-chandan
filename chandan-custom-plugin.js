@@ -13,7 +13,7 @@ function ChandanCustomPlugin() {
 
 var objectProvider = {
 	get: function(identifier){ //get is called with given identifier to resolve to an object
-		return getDictionary.then(function(dictionary){
+		return getDictionary().then(function(dictionary){
 			if(identifier.key === "custom-key"){
 				return{
 					identifier: identifier,

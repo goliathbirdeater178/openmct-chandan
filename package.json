@@ -19,7 +19,7 @@
   "homepage": "https://github.com/larkin/openmct-tutorials-sprint#readme",
   "dependencies": {
     "express": "^4.14.1",
-    "ws": "^2.0.3",
+    "ws": "^7.2.0",
     "openmct": "nasa/openmct"
   }
 }
